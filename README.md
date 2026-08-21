@@ -2,9 +2,9 @@
 
 A source-backed timeline of OpenAI Codex, from the original 2021 coding model to the modern CLI, cloud agent, apps, models, and integrations.
 
-**Last verified:** July 22, 2026
+**Last verified:** August 21, 2026
 
-**Latest major update:** July 9, 2026
+**Latest major update:** August 20, 2026
 
 **Published article:** [Codex Timeline: Release Dates, Versions, and Major Updates](https://www.scriptbyai.com/codex-timeline/)
 
@@ -18,15 +18,31 @@ This repository records the releases that changed Codex's product identity, capa
 
 ## Latest update
 
-On July 9, 2026, OpenAI released GPT-5.6 in Codex and integrated Codex into the ChatGPT desktop app for macOS and Windows. GPT-5.6 introduced the Sol, Terra, and Luna model tiers. Existing Codex app projects, settings, and workflows carried into the ChatGPT desktop application. Both changes were full releases, not previews.
+On August 20, 2026, Codex CLI 0.149.0 added an interactive `codex agents` dashboard for managing local and remote tasks, working-directory commands, queued messages, and richer `codex doctor` diagnostics. A ChatGPT desktop update on the same day added the Apple Messages plugin for Codex on macOS, Site co-editing and editable hosted Site URLs where available, and Computer History access in Europe. These were full releases and product updates; the timeline excludes prerelease builds and patch-only releases.
 
 ## Timeline at a glance
 
 | Date | Event | What changed |
 |---|---|---|
+| August 20, 2026 | ChatGPT desktop | Apple Messages, Site co-editing, editable hosted Site URLs, and Computer History expansion arrived in the ChatGPT desktop workflow. |
+| August 20, 2026 | Codex CLI 0.149.0 | An interactive `codex agents` dashboard, queued messages, working-directory commands, and richer `codex doctor` diagnostics arrived. |
+| August 18, 2026 | Codex CLI 0.148.0 | Markdown export, session fork/archive/restore, thread cost estimates, an Amazon Bedrock provider, and async hooks/MCP tools arrived. |
+| August 13, 2026 | ChatGPT desktop | ChatGPT can now remember your activity across the apps and websites on your computer with Computer History. |
+| August 11, 2026 | ChatGPT desktop | You can now keep your work from other agents in sync with ChatGPT Work and Codex. |
+| August 11, 2026 | ChatGPT desktop | You can now use ChatGPT, ChatGPT Work, and Codex on supported Linux systems with projects and browser workflows. |
+| August 7, 2026 | Codex CLI 0.147.0 | Portable Agent Plugins, catalog search, persistent conversation sections, paginated transcript browsing, and Cursor/Claude import synchronization arrived. |
+| July 29, 2026 | Codex CLI 0.146.0 | Named and pinned sessions, Agent Plugins publishing and marketplaces, paginated forks, remote Code Mode, and standalone web search expanded the CLI. |
+| July 28, 2026 | Codex Security | OpenAI open-sourced the Codex Security CLI and SDK for finding, validating, and fixing security vulnerabilities in code. |
+| July 23, 2026 | Voice | Users can control their computer and direct multiple agents in ChatGPT Work or Codex with voice. |
+| July 23, 2026 | Projects | Local projects can include related code, docs, and reference files from multiple folders while one primary folder remains the Git root. |
+| July 21, 2026 | Codex CLI 0.145.0 | Paginated history, Cursor and Claude Code imports, Amazon Bedrock login, audio inputs and outputs, multi-agent V2, and inline visualization links arrived. |
 | July 9, 2026 | ChatGPT desktop integration | Codex joined the ChatGPT desktop app on macOS and Windows. |
 | July 9, 2026 | GPT-5.6 | Sol, Terra, and Luna became available in Codex. |
+| July 9, 2026 | Codex CLI 0.144.0 | A `writes` approval mode, interactive MCP authentication, hosted login support, and usage-credit details arrived. |
+| July 8, 2026 | Codex CLI 0.143.0 | Remote plugins became the default, system proxy support expanded, remote-control pairing arrived, and Bedrock gained GPT-5.6 model routing. |
 | June 25, 2026 | Codex Remote GA | Paired mobile devices could control work on Mac and Windows hosts. |
+| June 22, 2026 | Codex CLI 0.142.0 | Usage credits, plugin recommendations, token budgets, multi-agent controls, indexed web search, and scheduled time reminders arrived. |
+| June 18, 2026 | Codex CLI 0.141.0 | Encrypted remote executor relays, cross-platform remote execution, selected plugin MCP servers, and child-thread and import APIs arrived. |
 | June 2, 2026 | Sites and role-specific plugins | Codex added hosted Sites and plugin collections for specific professions. |
 | May 26, 2026 | Model deprecations | GPT-5.3-Codex and GPT-5.2 left the ChatGPT-authenticated model picker. |
 | May 14, 2026 | Mobile preview and Remote SSH GA | Codex entered ChatGPT mobile, and Remote SSH reached general availability. |
@@ -76,6 +92,10 @@ The dedicated Codex app launched on macOS in February 2026 and Windows in March.
 Mobile access entered preview in May. Codex Remote reached general availability in June and connected authenticated phones with Mac or Windows hosts. Codex also moved into browser work through an in-app browser and the Codex for Chrome extension.
 
 The model line changed quickly during the same period. GPT-5.3-Codex added mid-turn steering, GPT-5.4 brought a mainline general-purpose model into Codex, and GPT-5.6 introduced persistent Sol, Terra, and Luna tiers. Codex joined the main ChatGPT desktop app on July 9.
+
+The stable CLI releases from June through August added a second layer of product changes. Versions 0.141.0 and 0.142.0 strengthened encrypted remote execution, usage controls, plugins, token budgets, indexed search, and time reminders. Versions 0.143.0 and 0.144.0 added remote plugins, system proxy support, remote-control pairing, Bedrock routing, safer write approvals, and interactive MCP authentication. Versions 0.145.0 through 0.147.0 added imported work, audio, multi-agent controls, named sessions, portable plugins, searchable history, and paginated forks. Version 0.148.0 added Markdown export, session archive and restore, cost estimates, Bedrock Runtime, and asynchronous hooks. Version 0.149.0 added the `codex agents` dashboard, queued messages, working-directory commands, and diagnostic checks.
+
+August desktop updates added supported Linux access, Computer History, Apple Messages, Site co-editing, editable hosted Site URLs, and Computer History availability in Europe. These changes connected Codex more closely with the operating system and the wider ChatGPT work surface.
 
 ## Codex product surfaces
 
