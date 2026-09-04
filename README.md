@@ -2,9 +2,9 @@
 
 A source-backed timeline of OpenAI Codex, from the original 2021 coding model to the modern CLI, cloud agent, apps, models, and integrations.
 
-**Last verified:** August 21, 2026
+**Last verified:** September 4, 2026
 
-**Latest major update:** August 20, 2026
+**Latest major update:** September 3, 2026
 
 **Published article:** [Codex Timeline: Release Dates, Versions, and Major Updates](https://www.scriptbyai.com/codex-timeline/)
 
@@ -18,12 +18,16 @@ This repository records the releases that changed Codex's product identity, capa
 
 ## Latest update
 
-On August 20, 2026, Codex CLI 0.149.0 added an interactive `codex agents` dashboard for managing local and remote tasks, working-directory commands, queued messages, and richer `codex doctor` diagnostics. A ChatGPT desktop update on the same day added the Apple Messages plugin for Codex on macOS, Site co-editing and editable hosted Site URLs where available, and Computer History access in Europe. These were full releases and product updates; the timeline excludes prerelease builds and patch-only releases.
+On September 3, 2026, Codex CLI 0.153.0 added Vim draft undo and redo, remote marketplace plugin management, optional automatic recaps, richer TUI history, and earlier usage warnings for Plus and Team users. Codex CLI 0.153.1 released later the same day added API configuration for GPT-6-Astra without changing the default model or showing it in the model picker. These were full releases and product updates; the timeline excludes prerelease builds and releases that contain only fixes.
 
 ## Timeline at a glance
 
 | Date | Event | What changed |
 |---|---|---|
+| September 3, 2026 | Codex CLI 0.153.1 | GPT-6-Astra could be configured through the API without changing the default model or appearing in the model picker. |
+| September 3, 2026 | Codex CLI 0.153.0 | Vim draft undo/redo, remote marketplace plugin management, optional automatic recaps, richer TUI history, and earlier usage warnings arrived. |
+| September 1, 2026 | Codex CLI 0.152.0 | Vim search, actionable rate-limit banners, credential-refresh progress, package-style MCP names, per-tool output limits, and longer shell-command timeouts arrived. |
+| August 26, 2026 | Codex CLI 0.150.0 | Task mentions, response-copy choices, descriptive titles, clickable terminal links, interrupt hooks, and permission-mode shortcuts arrived. |
 | August 20, 2026 | ChatGPT desktop | Apple Messages, Site co-editing, editable hosted Site URLs, and Computer History expansion arrived in the ChatGPT desktop workflow. |
 | August 20, 2026 | Codex CLI 0.149.0 | An interactive `codex agents` dashboard, queued messages, working-directory commands, and richer `codex doctor` diagnostics arrived. |
 | August 18, 2026 | Codex CLI 0.148.0 | Markdown export, session fork/archive/restore, thread cost estimates, an Amazon Bedrock provider, and async hooks/MCP tools arrived. |
@@ -93,7 +97,7 @@ Mobile access entered preview in May. Codex Remote reached general availability 
 
 The model line changed quickly during the same period. GPT-5.3-Codex added mid-turn steering, GPT-5.4 brought a mainline general-purpose model into Codex, and GPT-5.6 introduced persistent Sol, Terra, and Luna tiers. Codex joined the main ChatGPT desktop app on July 9.
 
-The stable CLI releases from June through August added a second layer of product changes. Versions 0.141.0 and 0.142.0 strengthened encrypted remote execution, usage controls, plugins, token budgets, indexed search, and time reminders. Versions 0.143.0 and 0.144.0 added remote plugins, system proxy support, remote-control pairing, Bedrock routing, safer write approvals, and interactive MCP authentication. Versions 0.145.0 through 0.147.0 added imported work, audio, multi-agent controls, named sessions, portable plugins, searchable history, and paginated forks. Version 0.148.0 added Markdown export, session archive and restore, cost estimates, Bedrock Runtime, and asynchronous hooks. Version 0.149.0 added the `codex agents` dashboard, queued messages, working-directory commands, and diagnostic checks.
+The stable CLI releases from June through September added a second layer of product changes. Versions 0.141.0 and 0.142.0 strengthened encrypted remote execution, usage controls, plugins, token budgets, indexed search, and time reminders. Versions 0.143.0 and 0.144.0 added remote plugins, system proxy support, remote-control pairing, Bedrock routing, safer write approvals, and interactive MCP authentication. Versions 0.145.0 through 0.147.0 added imported work, audio, multi-agent controls, named sessions, portable plugins, searchable history, and paginated forks. Version 0.148.0 added Markdown export, session archive and restore, cost estimates, Bedrock Runtime, and asynchronous hooks. Version 0.149.0 added the `codex agents` dashboard, queued messages, working-directory commands, and diagnostic checks. Versions 0.150.0 and 0.152.0 added task references, interrupt hooks, usage feedback, package-style MCP names, per-tool output limits, and shell controls. Version 0.153.0 improved draft recovery, remote plugin management, transcript history, reconnects, and context management. Version 0.153.1 added API configuration for GPT-6-Astra without changing the default model picker.
 
 August desktop updates added supported Linux access, Computer History, Apple Messages, Site co-editing, editable hosted Site URLs, and Computer History availability in Europe. These changes connected Codex more closely with the operating system and the wider ChatGPT work surface.
 
