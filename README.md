@@ -2,9 +2,9 @@
 
 A source-backed timeline of OpenAI Codex, from the original 2021 coding model to the modern CLI, cloud agent, apps, models, and integrations.
 
-**Last verified:** September 23, 2026
+**Last verified:** September 30, 2026
 
-**Latest major update:** September 22, 2026
+**Latest major update:** September 29, 2026
 
 **Published article:** [Codex Timeline: Release Dates, Versions, and Major Updates](https://www.scriptbyai.com/codex-timeline/)
 
@@ -18,12 +18,21 @@ This repository records the releases that changed Codex's product identity, capa
 
 ## Latest update
 
-On September 22, 2026, GPT-6 Sol and GPT-6 Luna became available in Codex and the API, and Codex CLI 0.156.0 made voice conversations default while adding an optional full-screen interface, usage analytics, and worktree sessions enabled by default. Codex CLI 0.155.0 had introduced experimental voice and new task controls on September 17. Earlier that month, the Agents API entered public beta and the Data plugin arrived in ChatGPT Work and Codex. This timeline excludes prerelease builds and releases limited to fixes.
+On September 29, 2026, GPT-6.1 Sol launched in Codex, ChatGPT Work, and the API, and Codex CLI 0.159.1 made it the default bundled model. OpenAI also introduced GPT-6 Astra Ultrafast, reusable Codex Cloud environments, a redesigned desktop code review workflow, Codex Security Cloud, and computer use in the Agents API. GPT-6.1 Sol Ultrafast was announced for a later release. Stable CLI versions 0.157.0 through 0.159.0 added full-screen session defaults, MCP authentication options, and optional immediate steering. This timeline excludes alpha builds and releases limited to fixes.
 
 ## Timeline at a glance
 
 | Date | Event | What changed |
 |---|---|---|
+| September 29, 2026 | GPT-6.1 Sol in Codex and API | The upgraded Sol model launched in Codex, ChatGPT Work, and the API; CLI 0.159.1 made it the default bundled model. |
+| September 29, 2026 | GPT-6 Astra Ultrafast | A faster Astra service tier launched in Codex for Pro 500 and Enterprise and in the API; GPT-6.1 Sol Ultrafast was announced for later. |
+| September 29, 2026 | Codex Cloud environments | Reusable cloud development environments launched with repository setup, shared configuration, and separate task state. |
+| September 29, 2026 | Code Review and Codex Security Cloud | The desktop app gained a redesigned pull-request review workflow, while Security Cloud added hosted GitHub repository scans and monitoring. |
+| September 29, 2026 | Agents API computer use | The Agents API added computer use for developer-built agents. |
+| September 29, 2026 | Codex CLI 0.159.1 | GPT-6.1 Sol became the default bundled model and entered the Amazon Bedrock catalogs. |
+| September 29, 2026 | Codex CLI 0.159.0 | An opt-in setting enabled immediate steering during responses or long code-mode calls; session and transcript controls improved. |
+| September 28, 2026 | Codex CLI 0.158.0 | Full-screen copying improved, MCP OAuth client secrets gained support, and direct executor connections could use bearer tokens. |
+| September 25, 2026 | Codex CLI 0.157.0 | Full-screen transcripts and eligible background-server startup became defaults; remote import and cross-app conversation forks arrived. |
 | September 22, 2026 | GPT-6 Sol and Luna in Codex and API | Two lower-cost GPT-6 models joined Codex and the API for complex agent work and focused, high-volume tasks. |
 | September 22, 2026 | Codex CLI 0.156.0 | Voice became default; the release added a searchable full-screen UI, usage analytics, and worktree sessions enabled by default. |
 | September 17, 2026 | Codex CLI 0.155.0 | Experimental voice, task controls, Touch ID MCP verification, and configurable daemon updates arrived. |
@@ -101,11 +110,11 @@ The dedicated Codex app launched on macOS in February 2026 and Windows in March.
 
 Mobile access entered preview in May. Codex Remote reached general availability in June and connected authenticated phones with Mac or Windows hosts. Codex also moved into browser work through an in-app browser and the Codex for Chrome extension.
 
-The model line changed quickly during the same period. GPT-5.3-Codex added mid-turn steering, GPT-5.4 brought a mainline general-purpose model into Codex, and GPT-5.6 introduced persistent Sol, Terra, and Luna tiers. GPT-6 Astra entered Codex on September 9; GPT-6 Sol and GPT-6 Luna followed on September 22 with lower-cost options for coding agents and high-volume tasks. Codex joined the main ChatGPT desktop app on July 9.
+The model line changed quickly during the same period. GPT-5.3-Codex added mid-turn steering, GPT-5.4 brought a mainline general-purpose model into Codex, and GPT-5.6 introduced persistent Sol, Terra, and Luna tiers. GPT-6 Astra entered Codex on September 9; GPT-6 Sol and GPT-6 Luna followed on September 22. GPT-6.1 Sol launched on September 29 and became the default bundled CLI model in version 0.159.1. Codex joined the main ChatGPT desktop app on July 9.
 
-The stable CLI releases from June through September added a second layer of product changes. Versions 0.141.0 and 0.142.0 strengthened encrypted remote execution, usage controls, plugins, token budgets, indexed search, and time reminders. Versions 0.143.0 and 0.144.0 added remote plugins, system proxy support, remote-control pairing, Bedrock routing, safer write approvals, and interactive MCP authentication. Versions 0.145.0 through 0.147.0 added imported work, audio, multi-agent controls, named sessions, portable plugins, searchable history, and paginated forks. Version 0.148.0 added Markdown export, session archive and restore, cost estimates, Bedrock Runtime, and asynchronous hooks. Version 0.149.0 added the `codex agents` dashboard, queued messages, working-directory commands, and diagnostic checks. Versions 0.150.0 and 0.152.0 added task references, interrupt hooks, usage feedback, package-style MCP names, per-tool output limits, and shell controls. Versions 0.153.0 and 0.153.1 improved draft recovery, remote plugin management, transcript history, reconnects, context management, and GPT-6 Astra API configuration. Version 0.154.0 added Astra to the model picker and introduced managed worktrees and inline asynchronous questions. Version 0.155.0 added experimental voice, task controls, local Touch ID verification for MCP, and configurable daemon updates. Version 0.156.0 made voice conversations default and added the full-screen TUI, usage analytics, worktree sessions enabled by default, themes, and rendered Mermaid diagrams and equations.
+The stable CLI releases from June through September added a second layer of product changes. Versions 0.141.0 and 0.142.0 strengthened encrypted remote execution, usage controls, plugins, token budgets, indexed search, and time reminders. Versions 0.143.0 and 0.144.0 added remote plugins, system proxy support, remote-control pairing, Bedrock routing, safer write approvals, and interactive MCP authentication. Versions 0.145.0 through 0.147.0 added imported work, audio, multi-agent controls, named sessions, portable plugins, searchable history, and paginated forks. Version 0.148.0 added Markdown export, session archive and restore, cost estimates, Bedrock Runtime, and asynchronous hooks. Version 0.149.0 added the `codex agents` dashboard, queued messages, working-directory commands, and diagnostic checks. Versions 0.150.0 and 0.152.0 added task references, interrupt hooks, usage feedback, package-style MCP names, per-tool output limits, and shell controls. Versions 0.153.0 and 0.153.1 improved draft recovery, remote plugin management, transcript history, reconnects, context management, and GPT-6 Astra API configuration. Version 0.154.0 added Astra to the model picker and introduced managed worktrees and inline asynchronous questions. Version 0.155.0 added experimental voice, task controls, local Touch ID verification for MCP, and configurable daemon updates. Version 0.156.0 made voice conversations default and added the full-screen TUI, usage analytics, worktree sessions enabled by default, themes, and rendered Mermaid diagrams and equations. Version 0.157.0 made full-screen transcripts and eligible background-server startup defaults. Version 0.158.0 added MCP OAuth client-secret support and bearer-token executor connections. Version 0.159.0 added optional immediate steering during responses and long code-mode calls.
 
-August desktop updates added supported Linux access, Computer History, Apple Messages, Site co-editing, editable hosted Site URLs, and Computer History availability in Europe. These changes connected Codex more closely with the operating system and the wider ChatGPT work surface.
+August desktop updates added supported Linux access, Computer History, Apple Messages, Site co-editing, editable hosted Site URLs, and Computer History availability in Europe. DevDay in September introduced reusable Codex Cloud environments, desktop code review changes, Codex Security Cloud, computer use in the Agents API, and GPT-6 Astra Ultrafast for eligible plans and API users. These changes connected Codex more closely with the operating system and the wider ChatGPT work surface.
 
 ## Codex product surfaces
 
@@ -113,7 +122,7 @@ August desktop updates added supported Linux access, Computer History, Apple Mes
 |---|---|
 | Codex CLI | Runs local agent sessions in a terminal under configured sandbox and approval rules. |
 | IDE extension | Adds repository context, review, local work, and cloud handoff to VS Code and compatible editors. |
-| Codex cloud | Runs delegated tasks and code review in OpenAI-managed environments. |
+| Codex Cloud | Runs delegated tasks in reusable OpenAI-managed development environments. |
 | ChatGPT desktop app | Manages Codex projects, threads, worktrees, review, terminals, Automations, plugins, browser tools, and computer use. |
 | ChatGPT mobile app | Starts, follows, steers, and approves work on connected hosts. |
 | SDK and integrations | Connect the Codex agent with CI, Slack, GitHub, hooks, and custom internal tools. |
@@ -127,8 +136,10 @@ The timeline gives priority to OpenAI announcements, OpenAI developer documentat
 - [Introducing Codex, 2025](https://openai.com/index/introducing-codex/)
 - [Codex general availability](https://openai.com/index/codex-now-generally-available/)
 - [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app/)
-- [Codex CLI 0.155.0](https://github.com/openai/codex/releases/tag/rust-v0.155.0) and [0.156.0](https://github.com/openai/codex/releases/tag/rust-v0.156.0)
-- [Introducing GPT-6 Sol and Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna/)
+- [Codex CLI 0.157.0](https://github.com/openai/codex/releases/tag/rust-v0.157.0), [0.158.0](https://github.com/openai/codex/releases/tag/rust-v0.158.0), [0.159.0](https://github.com/openai/codex/releases/tag/rust-v0.159.0), and [0.159.1](https://github.com/openai/codex/releases/tag/rust-v0.159.1)
+- [Introducing GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/)
+- [DevDay 2026 recap](https://openai.com/index/devday-2026-recap/)
+- [Codex Cloud documentation](https://learn.chatgpt.com/docs/cloud)
 - [Codex changelog](https://developers.openai.com/codex/changelog)
 - [OpenAI Codex releases on GitHub](https://github.com/openai/codex/releases)
 
