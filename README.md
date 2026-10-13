@@ -2,9 +2,9 @@
 
 A source-backed timeline of OpenAI Codex, from the original 2021 coding model to the modern CLI, cloud agent, apps, models, and integrations.
 
-**Last verified:** September 30, 2026
+**Last verified:** October 13, 2026
 
-**Latest major update:** September 29, 2026
+**Latest major update:** October 11, 2026
 
 **Published article:** [Codex Timeline: Release Dates, Versions, and Major Updates](https://www.scriptbyai.com/codex-timeline/)
 
@@ -18,12 +18,25 @@ This repository records the releases that changed Codex's product identity, capa
 
 ## Latest update
 
-On September 29, 2026, GPT-6.1 Sol launched in Codex, ChatGPT Work, and the API, and Codex CLI 0.159.1 made it the default bundled model. OpenAI also introduced GPT-6 Astra Ultrafast, reusable Codex Cloud environments, a redesigned desktop code review workflow, Codex Security Cloud, and computer use in the Agents API. GPT-6.1 Sol Ultrafast was announced for a later release. Stable CLI versions 0.157.0 through 0.159.0 added full-screen session defaults, MCP authentication options, and optional immediate steering. This timeline excludes alpha builds and releases limited to fixes.
+On October 11, 2026, OpenAI increased the default GPT-6.1 Sol context in Codex and ChatGPT Work from 272,000 to 500,000 tokens, with configuration up to one million. Earlier October releases added Sol Ultrafast, faster desktop steering, free Auto-review with ChatGPT sign-in, and composer predictions in beta for eligible personal Pro users. Codex CLI 0.162.0 added managed-worktree tools and task pinning; the latest stable version, 0.162.1, contained fixes. Alpha builds and releases limited to fixes are excluded from the milestone table.
 
 ## Timeline at a glance
 
 | Date | Event | What changed |
 |---|---|---|
+| October 11, 2026 | GPT-6.1 Sol default context expands | The default Codex and Work context increased from 272k to 500k tokens, with configuration up to 1M. |
+| October 9, 2026 | Composer predictions beta | Personal Pro users aged 18+ gained next-message suggestions in supported local and SSH desktop threads. |
+| October 8, 2026 | GPT-6.1 Sol Ultrafast rollout | Ultrafast reached Codex and Work on Pro $500 and eligible Enterprise/Edu plans, plus the Responses API. |
+| October 8, 2026 | Faster desktop steering | Follow-up messages could redirect running Codex tasks sooner; settings controlled steering versus queuing. |
+| October 8, 2026 | Codex CLI 0.162.0 | Managed-worktree tools, task pinning, transcript copying, provider capability settings, and Code Mode tool search expanded. |
+| October 7, 2026 | Codex CLI 0.161.0 | Bedrock gained multi-agent V2 and Ultra reasoning; live MCP login, saved voice-device settings, and explicit Daybreak opt-in arrived. |
+| October 7, 2026 | Codex task links on iOS | ChatGPT for iOS 1.2026.272 added direct opening of Codex task links and a clearer approval picker. |
+| October 6, 2026 | Auto-review becomes free with ChatGPT sign-in | Automatic approval reviews stopped consuming plan usage; users could select Approve for me. |
+| October 5, 2026 | GPT-6 default-speed improvement | GPT-6 Astra and GPT-6.1 Sol received an approximately 50% default-speed improvement through ChatGPT subscriptions. |
+| October 2, 2026 | Codex task and usage widgets on iOS | Home Screen widgets showed recent host tasks; Home Screen and Lock Screen widgets tracked usage and reset times. |
+| October 1, 2026 | Codex CLI 0.160.0 | Older-task browsing, Linux transcript selection, projectless session defaults, and opt-in approval-review context improved. |
+| October 1, 2026 | GPT-5.3-Codex API deprecation announced | API removal was scheduled for April 1, 2027, with GPT-6 Sol as the recommended replacement. |
+| September 30, 2026 | Codex CLI 0.159.3 | Eligible local sessions with ChatGPT sign-in gained optional account-security setup reminders. |
 | September 29, 2026 | GPT-6.1 Sol in Codex and API | The upgraded Sol model launched in Codex, ChatGPT Work, and the API; CLI 0.159.1 made it the default bundled model. |
 | September 29, 2026 | GPT-6 Astra Ultrafast | A faster Astra service tier launched in Codex for Pro 500 and Enterprise and in the API; GPT-6.1 Sol Ultrafast was announced for later. |
 | September 29, 2026 | Codex Cloud environments | Reusable cloud development environments launched with repository setup, shared configuration, and separate task state. |
@@ -36,6 +49,8 @@ On September 29, 2026, GPT-6.1 Sol launched in Codex, ChatGPT Work, and the API,
 | September 22, 2026 | GPT-6 Sol and Luna in Codex and API | Two lower-cost GPT-6 models joined Codex and the API for complex agent work and focused, high-volume tasks. |
 | September 22, 2026 | Codex CLI 0.156.0 | Voice became default; the release added a searchable full-screen UI, usage analytics, and worktree sessions enabled by default. |
 | September 17, 2026 | Codex CLI 0.155.0 | Experimental voice, task controls, Touch ID MCP verification, and configurable daemon updates arrived. |
+| September 14, 2026 | GPT-5.3-Codex-Spark discontinued | The Spark research preview ended in the desktop app, CLI, and IDE extension. |
+| September 14, 2026 | GPT-5.5 retirement announced | Retirement from ChatGPT, Work, and Codex was scheduled for October 14; API access was excluded. |
 | September 10, 2026 | Agents API public beta | Developers gained API access to the managed Codex harness, durable sessions, context compaction, MCP, and parallel subagents. |
 | September 10, 2026 | Data plugin in Codex | The Data plugin entered ChatGPT Work and Codex for connected business-data analysis, dashboards, and reports. |
 | September 9, 2026 | GPT-6 Astra in Codex and API | Astra entered the Codex model picker and API; CLI 0.154.0 also added managed worktrees and inline asynchronous questions. |
@@ -116,6 +131,42 @@ The stable CLI releases from June through September added a second layer of prod
 
 August desktop updates added supported Linux access, Computer History, Apple Messages, Site co-editing, editable hosted Site URLs, and Computer History availability in Europe. DevDay in September introduced reusable Codex Cloud environments, desktop code review changes, Codex Security Cloud, computer use in the Agents API, and GPT-6 Astra Ultrafast for eligible plans and API users. These changes connected Codex more closely with the operating system and the wider ChatGPT work surface.
 
+### September 2026: model retirement notices
+
+September 14, 2026: GPT-5.3-Codex-Spark was deprecated and its research preview became unavailable in the ChatGPT desktop app, Codex CLI, and IDE extension. Saved configurations and scripts that selected gpt-5.3-codex-spark needed a supported replacement.
+
+September 14, 2026: OpenAI announced that GPT-5.5 would retire from ChatGPT, ChatGPT Work, and Codex on October 14, 2026, across consumer, Business, Enterprise, and Edu plans. The OpenAI API was excluded. As of October 13, the subscription-product retirement was still scheduled for the following day.
+
+### September 30 to October 2026: speed, permissions, and longer context
+
+**September 30, 2026 — Codex CLI 0.159.3.** Codex CLI 0.159.3 added optional reminders to complete account-security setup in eligible local sessions signed in with ChatGPT.
+
+**October 1, 2026 — Codex CLI 0.160.0.** Codex CLI 0.160.0 added a keyboard-accessible Show more action for older tasks in the agent command center. Supported local Linux X11 terminals gained full-screen transcript selection and middle-click paste. Sessions could start outside a project with workspace defaults when policy allowed, and resumed sessions restored saved permissions. Opt-in Guardian review capabilities could retrieve earlier user instructions and include context from agent handoffs. The release also improved queued-message recovery after reconnects, Windows sandbox behavior, plugin-loading efficiency, and local log storage.
+
+**October 1, 2026 — GPT-5.3-Codex API deprecation announced.** OpenAI deprecated `gpt-5.3-codex` in the API and scheduled removal for April 1, 2027, with six months of notice. The recommended replacement was `gpt-6-sol`. This API deprecation was separate from the model's earlier removal from the ChatGPT-authenticated Codex model picker; API access had not shut down as of October 13.
+
+**October 2, 2026 — Codex task and usage widgets on iOS.** ChatGPT for iOS 1.2026.267 added Home Screen widgets for recent tasks on selected computers. Home Screen and Lock Screen widgets could display remaining usage and reset times. The update also added an option to keep the keyboard open after sending a message.
+
+**October 5, 2026 — GPT-6 default-speed improvement.** OpenAI increased default inference speed for GPT-6 Astra and GPT-6.1 Sol by approximately 50% across its subscription products and partners that use Sign in with ChatGPT. The improvement required no setting change. It applied to the default subscription experience, separately from the Fast and Ultrafast speed tiers.
+
+**October 6, 2026 — Auto-review becomes free with ChatGPT sign-in.** Auto-review became free for users signed in with a ChatGPT account, without consuming their plan usage. Users could select Approve for me in the permissions control below the composer. A separate reviewer agent evaluates eligible approval requests before execution. The main agent retains its configured sandbox, filesystem restrictions, and network limits.
+
+**October 7, 2026 — Codex CLI 0.161.0.** Codex CLI 0.161.0 added multi-agent V2 and Ultra reasoning for compatible Amazon Bedrock models, plus AWS GovCloud regions in Bedrock Mantle. GPT-6.1 Sol remained the default in the bundled and Bedrock catalogs. Users could sign in to an MCP server during an active terminal session with `/mcp login <name>` and save microphone, speaker, and input-channel preferences. Daybreak controls and automatic Cyber routing required explicit opt-in through `--enable cli_daybreak` or `features.cli_daybreak=true`, plus account and model eligibility. The non-interactive CLI and TypeScript SDK also gained per-turn Cyber access-program selection.
+
+**October 7, 2026 — Codex task links on iOS.** ChatGPT for iOS 1.2026.272 added direct opening of Codex task links and inline Page previews. The approval picker received clearer permission choices, while worktree handling and reconnection behavior improved for tasks associated with desktop hosts.
+
+**October 8, 2026 — GPT-6.1 Sol Ultrafast rollout.** GPT-6.1 Sol Ultrafast began rolling out in Codex and ChatGPT Work on Pro $500 and eligible Enterprise and Edu plans. Enterprise access was off by default until workspace owners enabled it. Supported inference-residency regions included the United States and Europe (EEA and Switzerland). Ultrafast consumes usage at higher rates than Standard mode. The Responses API also added Sol Ultrafast for API users, subject to rate limits, through `gpt-6.1-sol` with `service_tier: "ultrafast"`. This release followed the September 29 announcement of the forthcoming tier.
+
+**October 8, 2026 — Faster desktop steering.** OpenAI began rolling out faster steering in the ChatGPT desktop app's Codex experience. Follow-up messages could correct an approach, add information, or redirect a running task sooner. Settings under General and Follow-up behavior controlled whether a message steered the active run or waited for the next one. This desktop rollout followed the CLI's opt-in `instant_interrupt` setting in version 0.159.0.
+
+**October 8, 2026 — Codex CLI 0.162.0.** Codex CLI 0.162.0 added tools to create and list managed Git worktrees from trusted local projects when the worktrees feature was enabled. Supported servers could keep pinned tasks in a shared Pinned group. Transcript controls added block navigation through `/copy`, `Ctrl+Insert` copying, configurable mouse-wheel speed, and clickable URLs across approval prompts and questions. Custom Responses-compatible providers gained configurable live web access and remote compaction capabilities. Code Mode added helpers to return asynchronous results as they completed and an opt-in ranked tool search. Windows releases also gained a signed PowerShell installer.
+
+**October 9, 2026 — Composer predictions beta.** Composer predictions entered beta in the Codex desktop app for personal ChatGPT Pro users aged 18 and older in supported regions. Local and SSH threads with GPT-6 Astra or GPT-6.1 Sol could suggest a complete next message after a response. Pressing Tab accepted the text for review or editing; the user still chose when to send it. Predictions were enabled by default for eligible users and could be disabled through General, Composer, and Show predictions. Generating predictions used no Codex limits or credits during the beta. Sent messages followed normal usage limits and billing.
+
+**October 11, 2026 — GPT-6.1 Sol default context expands.** The default GPT-6.1 Sol context length in Codex and ChatGPT Work increased from 272,000 to 500,000 tokens. Users could still configure it up to one million tokens. Subscription usage carried no additional long-context fee. The change expanded the amount of task history and project material a session could retain before context management became necessary.
+
+Stable CLI versions 0.159.2, 0.160.1, and 0.162.1 were reviewed but contained fixes only. Version 0.162.1 was the latest stable release on October 13.
+
 ## Codex product surfaces
 
 | Surface | Role |
@@ -142,6 +193,14 @@ The timeline gives priority to OpenAI announcements, OpenAI developer documentat
 - [Codex Cloud documentation](https://learn.chatgpt.com/docs/cloud)
 - [Codex changelog](https://developers.openai.com/codex/changelog)
 - [OpenAI Codex releases on GitHub](https://github.com/openai/codex/releases)
+
+- [Codex CLI 0.159.3](https://github.com/openai/codex/releases/tag/rust-v0.159.3), [0.160.0](https://github.com/openai/codex/releases/tag/rust-v0.160.0), [0.161.0](https://github.com/openai/codex/releases/tag/rust-v0.161.0), [0.162.0](https://github.com/openai/codex/releases/tag/rust-v0.162.0), and [0.162.1](https://github.com/openai/codex/releases/tag/rust-v0.162.1)
+- [28 days of shipping tracker](https://community.openai.com/t/28-days-of-shipping-at-openai/1403897)
+- [ChatGPT and Codex changelog](https://learn.chatgpt.com/docs/changelog)
+- [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
+- [Composer predictions](https://help.openai.com/en/articles/20001601-composer-predictions-in-codex)
+- [Auto-review](https://learn.chatgpt.com/docs/sandboxing/auto-review) and [speed tiers](https://learn.chatgpt.com/docs/agent-configuration/speed)
+- [API deprecations](https://developers.openai.com/api/docs/deprecations) and [API changelog](https://developers.openai.com/api/docs/changelog)
 
 ## Contributing updates
 
