@@ -171,10 +171,6 @@ September 14, 2026: OpenAI announced that GPT-5.5 would retire from ChatGPT, Cha
 
 **October 11, 2026 — GPT-6.1 Sol default context expands.** The default GPT-6.1 Sol context length in Codex and ChatGPT Work increased from 272,000 to 500,000 tokens. Users could still configure it up to one million tokens. Subscription usage carried no additional long-context fee. The change expanded the amount of task history and project material a session could retain before context management became necessary.
 
-Stable CLI versions 0.159.2, 0.160.1, and 0.162.1 were reviewed but contained fixes only. Version 0.166.0 was the latest stable release verified on October 30.
-
-### October 14–29, 2026: CLI controls, Terra, and provider support
-
 **October 14, 2026 — GPT-5.5 retires from Codex.** GPT-5.5 retired from ChatGPT-authenticated Codex at noon PDT. API-key sessions and the OpenAI API were unaffected.
 
 **October 15, 2026 — Codex CLI 0.163.0.** The searchable /config panel applied supported preference changes immediately. Follow-up messages steered active responses by default, and interruptions stopped Code Mode cells and nested tool calls. The release added configurable leader keys, /daemon restarts, and parallel read-only lookups. Daybreak became enabled by default for eligible accounts.
@@ -186,6 +182,8 @@ Stable CLI versions 0.159.2, 0.160.1, and 0.162.1 were reviewed but contained fi
 **October 27, 2026 — Codex CLI 0.165.0.** A built-in Vertex AI provider used model_provider = "gcp". Terra joined model catalogs, session navigation gained repository filters, and supported models allowed reasoning changes during conversations by default. Fresh profiles used memory v2 with external-agent memory imports. Attached thread forks in the app-server API remained experimental.
 
 **October 29, 2026 — Codex CLI 0.166.0.** Transcript selection gained keyboard motions, integrated search, and configurable shortcuts. Terra appeared in the bundled, Vertex AI, and Bedrock catalogs. The codex queue --resume command resumed unloaded threads after queueing a message; codex doctor --network-only checked connectivity and WebSockets. The release also clarified safety blocks and preserved permission settings and reasoning-token accounting across resume and fork.
+
+Stable CLI versions 0.159.2, 0.160.1, and 0.162.1 were reviewed but contained fixes only. Version 0.166.0 was the latest stable release verified on October 30.
 
 ## Codex product surfaces
 
