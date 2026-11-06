@@ -2,9 +2,9 @@
 
 A source-backed timeline of OpenAI Codex, from the original 2021 coding model to the modern CLI, cloud agent, apps, models, and integrations.
 
-**Last verified:** October 30, 2026
+**Last verified:** November 6, 2026
 
-**Latest major update:** October 29, 2026
+**Latest major update:** November 6, 2026
 
 **Published article:** [Codex Timeline: Release Dates, Versions, and Major Updates](https://www.scriptbyai.com/codex-timeline/)
 
@@ -18,12 +18,15 @@ This repository records the releases that changed Codex's product identity, capa
 
 ## Latest update
 
-Codex CLI 0.166.0 was released on October 29, 2026, with keyboard-driven transcript selection, Terra model catalogs, queued-thread resumption, and network diagnostics. Earlier October releases added prompt presets, Vertex AI support, memory v2 for fresh profiles, and immediate steering by default. GPT-6.1 Terra became available in Codex and Work on October 26. Alpha builds and releases limited to fixes are excluded from the milestone table.
+Codex CLI 0.167.0 added an agent command center with unread-result indicators, switching between connected backends with draft preservation, local image previews on supported terminals, and expandable patch details during approvals. System proxy support on macOS and Windows remained opt-in under /experimental; Vertex AI onboarding required gcp_setup_wizard. GPT-6 Cyber began limited access through Codex and the API on November 5 for selected approved Daybreak Red customers. Alpha builds are excluded.
 
 ## Timeline at a glance
 
 | Date | Event | What changed |
 |---|---|---|
+| November 6, 2026 | Codex CLI 0.167.0 | Codex CLI 0.167.0 added an agent command center with unread-result indicators, switching between connected backends with draft preservation, local image previews on supported terminals, and expandable patch details during approvals. System proxy support on macOS and Windows remained opt-in under /experimental; Vertex AI onboarding required gcp_setup_wizard. |
+| November 5, 2026 | GPT-6 Cyber begins limited access | GPT-6 Cyber became available through Codex and the API to a select group of approved Daybreak Red customers for vulnerability research and exploit validation. Access for all Daybreak Red customers was planned for later. |
+| November 2, 2026 | iOS task sync and default steering | ChatGPT for iOS 1.2026.300 synced task read status with supported hosts and made follow-ups steer running tasks by default, unless users had saved another preference. |
 | October 29, 2026 | Codex CLI 0.166.0 | Keyboard-driven transcript selection and search, Terra in bundled, Vertex AI, and Bedrock catalogs, queued-thread resumption, clearer safety-block guidance, and network diagnostics. |
 | October 27, 2026 | Codex CLI 0.165.0 | Built-in Google Cloud Vertex AI support, Terra model catalogs, repository filters, mid-conversation reasoning changes, and memory v2 for fresh profiles. Attached thread forks remained experimental. |
 | October 26, 2026 | GPT-6.1 Terra becomes available | GPT-6.1 Terra became available in Codex and Work on Plus, Pro, Business, Enterprise, and Edu plans, with image understanding and computer use. Enterprise access depends on administrator controls. |
@@ -183,7 +186,15 @@ September 14, 2026: OpenAI announced that GPT-5.5 would retire from ChatGPT, Cha
 
 **October 29, 2026 — Codex CLI 0.166.0.** Transcript selection gained keyboard motions, integrated search, and configurable shortcuts. Terra appeared in the bundled, Vertex AI, and Bedrock catalogs. The codex queue --resume command resumed unloaded threads after queueing a message; codex doctor --network-only checked connectivity and WebSockets. The release also clarified safety blocks and preserved permission settings and reasoning-token accounting across resume and fork.
 
-Stable CLI versions 0.159.2, 0.160.1, and 0.162.1 were reviewed but contained fixes only. Version 0.166.0 was the latest stable release verified on October 30.
+Stable CLI versions 0.159.2, 0.160.1, and 0.162.1 were reviewed but contained fixes only. Version 0.167.0 was the latest stable release verified on November 6, 2026.
+
+### November 2026: mobile task controls and GPT-6 Cyber
+
+**November 2, 2026 — iOS task sync and default steering.** ChatGPT for iOS 1.2026.300 synced task read status with supported hosts and made follow-ups steer running tasks by default, unless users had saved another preference.
+
+**November 5, 2026 — GPT-6 Cyber begins limited access.** GPT-6 Cyber became available through Codex and the API to a select group of approved Daybreak Red customers for vulnerability research and exploit validation. Access for all Daybreak Red customers was planned for later.
+
+**November 6, 2026 — Codex CLI 0.167.0.** Codex CLI 0.167.0 added an agent command center with unread-result indicators, switching between connected backends with draft preservation, local image previews on supported terminals, and expandable patch details during approvals. System proxy support on macOS and Windows remained opt-in under /experimental; Vertex AI onboarding required gcp_setup_wizard.
 
 ## Codex product surfaces
 
@@ -224,6 +235,9 @@ The timeline gives priority to OpenAI announcements, OpenAI developer documentat
 - [Codex CLI 0.164.0](https://github.com/openai/codex/releases/tag/rust-v0.164.0)
 - [Codex CLI 0.165.0](https://github.com/openai/codex/releases/tag/rust-v0.165.0)
 - [Codex CLI 0.166.0](https://github.com/openai/codex/releases/tag/rust-v0.166.0)
+
+- [Codex CLI 0.167.0](https://github.com/openai/codex/releases/tag/rust-v0.167.0)
+- [Introducing GPT-6 Cyber](https://openai.com/index/introducing-gpt-6-cyber/)
 
 ## Contributing updates
 
